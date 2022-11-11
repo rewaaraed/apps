@@ -1,0 +1,96 @@
+body{
+    background-image: url(../imag/brown.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+   background-size: cover;
+
+}
+
+
+#fieldset{
+    height: 490px;
+    width: 300px;
+    margin-top: 40px;
+   margin-left: 450px;
+   text-align: center;
+   background-image: linear-gradient(to bottom , rgba(255,0,0,0), rgb(203, 185, 144));
+   background-color: rgb(228, 192, 147);
+   background-position: center;
+   padding: 10px;
+   }
+   @font-face {
+    font-family: coneria;
+    src: url(../font/Demo_ConeriaScript.ttf);
+}
+#txtcar{
+    margin-top: 10px;
+    font-family: coneria;
+
+}
+#txt2{
+    color: rgb(115, 121, 127);
+    margin-top: -15px;
+    
+}
+
+
+#table{
+    margin-top: -10px;
+    margin-left: 55px;
+    background-color: rgb(55, 57, 58);
+    border-radius: 10px;
+    width: 210px;
+    
+}
+#imgemail{
+   height: 30px;
+ }
+#emaila{
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    margin-left: -25px;
+}
+
+#or{
+    margin-top: 10px;
+    color: rgb(160, 163, 164);
+}
+#email{
+width: 220px;
+height: 30px;
+margin-bottom: 10px;
+background-color: rgb(240, 241, 222);
+}
+#fullName{
+    width: 220px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 241, 222);
+    }
+    #userName{
+        width: 220px;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(240, 241, 222);
+        }
+        #password{
+            width: 220px;
+            height: 30px;
+            margin-bottom: 10px;
+            background-color: rgb(240, 241, 222);
+            }
+
+            #txth5{
+                color: rgb(115, 121, 127);
+                margin-top: -5px;
+            }
+   #SignUp{
+    margin-left: 20px;
+    background-color: rgb(55, 57, 58);
+        border-radius: 10px;
+    width: 200px;
+    height: 30px;margin-top: -5px;
+    color: rgb(255, 255, 255);
+    
+   }

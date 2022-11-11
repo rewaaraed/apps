@@ -1,0 +1,42 @@
+body{
+    background-image: url(../imag/brok.png);
+    background-position: right bottom;
+   background-repeat: no-repeat;
+    
+     background-attachment: fixed;
+    background-size: 370px;
+}
+
+
+#go{
+    text-decoration: none;
+    color: rgb(64, 109, 223);
+}
+#divh{
+    
+    margin-top: 120px;
+    text-align: center;
+}
+#divtop{
+    
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+    width: 100%;
+  
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(59, 61, 61));
+    background-color: aliceblue;
+    
+}
+
+@font-face {
+    font-family: coneria;
+    src: url(../font/Demo_ConeriaScript.ttf);
+}
+#cs{
+    margin-left: 15px;
+    font-family: coneria;
+     color: aliceblue;
+}

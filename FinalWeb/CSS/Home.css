@@ -1,0 +1,136 @@
+body{
+     background-image:url("file:///C:/Users/Al-Qema/Desktop/FinalWeb/imag/m.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(196, 200, 205);
+    
+}
+.top{
+    align-items: center;
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(59, 61, 61));
+    background-color: aliceblue;
+    height: 100px;
+    position: fixed  ;/*
+    موقع العنصر بتحددو  بتحركو  بالنسبة للمكان الاصليrelative
+    بتحرك العنصر بالنسبة لحدود الصفحة وبضل مكانها ثابت لو بدي اعمل سكرل للصفحة fixed
+    بتتحرك مع العناصر ولما يجي مكانها الي بحددلها اياه بتقف عندو sticky
+     العنصر ثابت بالنسبة لللموقع اي بعطيه اياه يعني حسب التوب بضلو واقف لما اعمل سكرل عليه بروح ما بضل ثابت بالنسبة للصفحة absolut
+    */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu{
+    line-height: 25px;
+    list-style-position: initial;
+    list-style-type: none;
+    list-style: none;
+  
+   
+}
+
+li{
+    display: inline-block;
+    
+
+}
+li>a{
+   margin-left:100px ;
+    text-decoration: none;
+   font-size: larger;
+   font-weight: 700px;
+   color: rgb(34, 33, 33);
+
+}
+@font-face {
+    font-family: coneria;
+    src: url(../font/Demo_ConeriaScript.ttf);
+}
+h1{
+    font-family:coneria ;
+    display: inline;
+    margin-left: 20px;
+    font-weight: 500px;
+    color: aliceblue;
+}
+#topright{
+    top: 0;
+text-align: center;
+
+
+display: inline;
+}
+
+#tablcar{
+   margin-top: 20%;    
+   margin-left: 20px;
+   text-align: center;
+     
+}
+#wc {
+    background-attachment: fixed;
+  
+
+    transition: 1s;
+    object-fit: contain;
+
+
+}
+#wc:hover{
+transform: scale(1.1);
+z-index: 2;
+
+}
+
+#rc {
+    background-attachment: fixed;
+     object-fit: contain;
+  
+    transition: 1s;
+   
+
+}
+#rc:hover{
+transform: scale(1.1);
+z-index: 2; 
+}
+#bc {
+
+    object-fit: contain;
+    background-attachment: fixed;
+    transition: 1s;
+   
+
+}
+#bc:hover{
+transform: scale(1.1);
+z-index: 2;
+
+}
+#price{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#l1{
+    padding: 8px 15px 8px 10px;
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(236, 134, 140));
+
+}
+#l2{
+    padding: 8px 15px 8px 10px;
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(102, 131, 177));
+
+}
+
+#l3{
+    padding: 8px 15px 8px 10px;
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(51, 38, 16));
+
+}
+
+
+

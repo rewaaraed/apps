@@ -1,0 +1,73 @@
+body{
+    background-image: url(../imag/bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+   background-size: 700px;
+
+}
+@font-face {
+    font-family: coneria;
+    src: url(../font/Demo_ConeriaScript.ttf);
+}
+#txtcar{
+    font-family: coneria;
+
+}
+#fieldset{
+ height: 400px;
+ width: 300px;
+ margin-top: 70px;
+margin-left: 450px;
+text-align: center;
+background-image: linear-gradient(to bottom , rgba(255,0,0,0), rgb(191, 196, 200));
+
+background-position: center;
+}
+
+#userName{
+    height: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#password{
+    height: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+#btnlogin{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+}
+#or{
+    color: rgb(160, 163, 164);
+}
+
+#table{
+    margin-left: 60px;
+    
+}
+#imgemail{
+   height: 30px;
+ }
+#emaila{
+    text-decoration-line: none;
+    color: rgb(3, 73, 135);
+   
+}
+#forgot{
+    text-decoration-line: none;
+    color: rgb(17, 109, 190);
+   
+}
+#haveaccount{
+margin-top: -2px;
+}
+#signup{
+    text-decoration-line: none;
+    color: rgb(29, 76, 118);
+}
